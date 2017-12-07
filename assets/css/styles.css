@@ -1,0 +1,235 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* General Structure */
+body {
+    font-size: 16px;
+    background-size: cover;
+    background-image: url(../images/pub-320px.jpg);
+    background-repeat: no-repeat;
+    background-color: #191009;
+    height: 100vh;
+    color: #191009;
+    font-family: 'Roboto Condensed', Arial, sans-serif;
+    padding: 10%;
+}
+
+.container {
+    background-color: rgba(255, 238, 214, 0.9);
+    min-height: 50%;
+    padding: 20px;
+    margin-bottom: 5%;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: rgba(82, 52, 45, 0.4);
+}
+
+/* Helper Classes */
+.hidden {
+    display: none !important;
+}
+.text-center {
+    text-align: center;
+}
+
+/* Feedback Colors */
+.color-green {
+    color: #168057;
+}
+.color-red {
+    color: #802e31;
+}
+
+/* Buttons */
+button {
+    display: block;
+    min-width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #26413C;
+    color: #fff;
+    border: 1px solid #36544f;
+    font-family: 'Roboto Condensed', Arial, sans-serif;
+    font-size: 1.2em;
+}
+button:hover {
+    background-color: #162c27;
+    cursor: pointer;
+}
+
+/* Main Heading */
+header h1 {
+    font-family: 'Cinzel', serif;
+    padding: 4px 0;
+    border-bottom: 1px solid #191009;
+    border-top: 1px solid #191009;
+    margin: 0.2em 0 0.4em;
+}
+
+/* Start page */
+.page-start h2 {
+    font-weight: normal;
+}
+.page-start h2 > span {
+    font-weight: bold;
+    display: block;
+}
+
+/* Quiz Questions Page */
+.track-score {
+    margin: 0 0 20px;
+    padding: 10px;
+    background-color: #3d2217;
+    color: #e0e2db;
+}
+
+.question-number {
+    margin: 0;
+    font-size: 1.1em;
+}
+.quiz-question {
+    line-height: 1.3em;
+    font-size: 1.4em;
+    margin: 12px 0;
+}
+
+.quiz-form label {
+    display: block;
+    padding: 5px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    border: 1px solid rgba(27, 17, 15, 0.46);
+    box-shadow: 1px 1px rgba(27, 17, 15, 0.69);
+    margin: 8px 0;
+}
+.quiz-form label i {
+    float: right;
+    margin: 5px 7px 0 0;
+}
+.quiz-form input {
+    vertical-align: middle;
+}
+.quiz-form input[type=radio], .quiz-form label {
+    cursor: pointer;
+}
+.quiz-form button {
+    margin: 20px auto;
+}
+
+.alert-message {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Feedback Page */
+.feedback-box {
+    position: relative;
+    max-width: 450px;
+    border: 1px solid;
+    padding: 5px 20px;
+    margin: 0 0 20px;
+}
+.feedback-box i {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.feedback-box.color-green {
+    border-color: #168057;
+}
+.feedback-box.color-red {
+    border-color: #802e31;
+}
+
+.questions-feedback {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* Media Queries */
+@media screen and (max-height: 1000px) {
+    body {
+        background-attachment: fixed;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background-image: url(../images/pub-480px.jpg);
+    }
+
+    /* Main Heading */
+    header h1 {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url(../images/pub-768px.jpg);
+    }
+    .container {
+        min-height: 60%;
+    }
+
+    /* Quiz Question Page */
+    .page-quiz {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    /* Feedback Page */
+    .page-feedback {
+        padding: 0 50px;
+    }
+    .questions-feedback {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: url(../images/pub-992px.jpg);
+    }
+    .container {
+        min-height: 65%;
+        margin-bottom: 100px;
+    }
+
+    /* Main Heading */
+    header h1 {
+        font-size: 3em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url(../images/pub.jpg);
+        background-size: cover;
+        padding: 3%;
+    }
+    .container {
+        min-height: 75%;
+        margin-bottom: 150px;
+    }
+
+    /* Main Heading */
+    header h1 {
+        font-size: 4em;
+    }
+}

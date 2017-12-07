@@ -1,0 +1,102 @@
+  [
+    {
+    "question": "Outside which New York building was John Lennon killed?",
+    "possibleAnswers": [ "The Dakota Building", "Chrysler Building", "Plaza Hotel", "Flatiron Building" ],
+    "correctAnswer": "The Dakota Building"
+  },
+    {
+      "question": "Which character does Morgan Freeman play in Bruce Almighty?",
+      "possibleAnswers": [ "God", "Bruce", "Evan", "Jack" ],
+      "correctAnswer": "God"
+    },
+    {
+      "question": "Complete the advertising slogan for FedEx: 'When there is ...'",
+      "possibleAnswers": [ "No tomorrow", "No substitute for quality", "No better choice", "Only one way" ],
+      "correctAnswer": "No tomorrow"
+    },
+    {
+      "question": "Wellington is the capital city of which country?",
+      "possibleAnswers": [ "New Zealand", "Australia", "United Kingdom", "Scotland" ],
+      "correctAnswer": "New Zealand"
+    },
+    {
+      "question": "Which planet is closest to the sun?",
+      "possibleAnswers": [ "Mercury", "Venus", "Neptune", "Mars" ],
+      "correctAnswer": "Mercury"
+    },
+    {
+      "question": "Which famous astronaut once said, \"That's one small step for man, one giant leap for mankind!\"?",
+      "possibleAnswers": [ "Neil Armstrong", "Buzz Aldrin", "Sally Ride", "Yuri Gagarin" ],
+      "correctAnswer": "Neil Armstrong"
+    },
+    {
+      "question": "If you were born on the 29th October, which star sign would you belong to?",
+      "possibleAnswers": [ "Scorpio", "Libra", "Sagittarius", "Aries" ],
+      "correctAnswer": "Scorpio"
+    },
+    {
+      "question": "During which decade did Elvis Presley die?",
+      "possibleAnswers": [ "1970s", "1960s", "1980s", "1950s" ],
+      "correctAnswer": "1970s"
+    },
+    {
+      "question": "How many of Snow White's seven dwarfs had a name ending with the letter Y?",
+      "possibleAnswers": [ "Five", "Four", "Three", "None" ],
+      "correctAnswer": "Five"
+    },
+    {
+      "question": "As of 2016, which athlete had won the most Olympic medals?",
+      "possibleAnswers": [ "Michael Phelps", "Usain Bolt", "Carl Lewis", "Simone Biles" ],
+      "correctAnswer": "Michael Phelps"
+    },
+    {
+      "question": "Who is lead singer of the Foo Fighters?",
+      "possibleAnswers": [ "Dave Grohl", "Taylor Hawkins", "Chris Shiflett", "Nate Mendel" ],
+      "correctAnswer": "Dave Grohl"
+    },
+    {
+      "question": "What are the two main ingredients of a 'screwdriver' cocktail?",
+      "possibleAnswers": [ "Vodka and orange juice", "Vodka and pineapple juice", "Whiskey and soda", "Whiskey and apple juice" ],
+      "correctAnswer": "Vodka and orange juice"
+    },
+    {
+      "question": "What is the tallest breed of dog in the world?",
+      "possibleAnswers": [ "Great Dane", "Neapolitan mastiff", "Scottish Deerhound", "Dogue de Bordeaux" ],
+      "correctAnswer": "Great Dane"
+    },
+    {
+      "question": "Who is the author of The Hunger Games trilogy?",
+      "possibleAnswers": [ "Suzanne Collins", "J. R. R. Tolkien", "J. K. Rowling", "George R. R. Martin" ],
+      "correctAnswer": "Suzanne Collins"
+    },
+    {
+      "question": "Which actor starred in: What Lies Beneath, Six Days and Seven Nights and Air Force One?",
+      "possibleAnswers": [ "Harrison Ford", "David Schwimmer", "Michelle Pfeiffer", "Tom Hanks" ],
+      "correctAnswer": "Harrison Ford"
+    },
+    {
+      "question": "What does the Olympic motto 'Citius, Altius, Fortius' mean?",
+      "possibleAnswers": [ "Faster, Higher, Stronger", "Stronger, Faster, Better", "Higher, Stronger, Faster", "Longer, Faster, Higher" ],
+      "correctAnswer": "Faster, Higher, Stronger"
+    },
+    {
+      "question": "Which mathematical constant is given to 3.14159265358979323?",
+      "possibleAnswers": [ "Archimedes' Constant", "Natural Logarithmic Base", "Euler's Constant", "Golden Ratio" ],
+      "correctAnswer": "Archimedes' Constant"
+    },
+    {
+      "question": "In the 2009 film 'The Hangover' which Las Vegas hotel did the bachelor party stay at?",
+      "possibleAnswers": [ "Caesars Palace", "MGM Grand", "The Venetian", "The Palazzo" ],
+      "correctAnswer": "Caesars Palace"
+    },
+    {
+      "question": "What is Tiger Wood's real first name?",
+      "possibleAnswers": [ "Eldrick", "Angus", "Milford", "Lafayette" ],
+      "correctAnswer": "Eldrick"
+    },
+    {
+      "question": "What is the smallest ocean in the world?",
+      "possibleAnswers": [ "Arctic Ocean", "Atlantic Ocean", "Pacific Ocean", "Indian Ocean" ],
+      "correctAnswer": "Arctic Ocean"
+    }
+  ]
