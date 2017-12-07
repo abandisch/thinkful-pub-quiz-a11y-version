@@ -41,7 +41,7 @@ hr {
 
 /* Feedback Colors */
 .color-green {
-    color: #168057;
+    color: #005031;
 }
 .color-red {
     color: #802e31;
@@ -146,7 +146,7 @@ fieldset, fieldset legend {
     right: 5px;
 }
 .feedback-box.color-green {
-    border-color: #168057;
+    border-color: #005031;
 }
 .feedback-box.color-red {
     border-color: #802e31;
