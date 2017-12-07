@@ -100,6 +100,10 @@ header h1 {
     margin: 12px 0;
 }
 
+fieldset, fieldset legend {
+    border: none;
+}
+
 .quiz-form label {
     display: block;
     padding: 5px;
